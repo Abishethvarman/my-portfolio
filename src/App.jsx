@@ -1,6 +1,8 @@
 import React from 'react'
 import { About } from './components/about/About';
+import Contact from './components/contact/Contact';
 import { Intro } from './components/intro/Intro';
+import ProductList from './components/productList/ProductList';
 
 
 const App = () =>{
@@ -8,6 +10,8 @@ const App = () =>{
     <div>
       <Intro/>
       <About/>
+      <ProductList/>
+      <Contact/>
     </div>
   ) 
 }
